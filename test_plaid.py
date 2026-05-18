@@ -6,10 +6,6 @@ from plaid.api_client import ApiClient
 
 load_dotenv()
 
-print("CLIENT_ID:", os.getenv("PLAID_CLIENT_ID"))
-print("SECRET:", os.getenv("PLAID_SECRET"))
-
-
 config = Configuration(
     host="https://sandbox.plaid.com",
     api_key={
